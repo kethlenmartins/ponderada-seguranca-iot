@@ -1,4 +1,4 @@
-# Ponderada de programação
+# Ponderada de programação - Grupo CIDA
 ## Segurança em Iot
 
 &emsp;Este repositório contém a ponderada de programação da semana 09 desenvolvida pelo grupo C.I.D.A. Nessa atividade, foi necessário analisar as vulnerabilidades de segurança do projeto desenvolvido e entender como poderiam ser resolvidas, além de elencar os possíveis ataques ao protótipo.
