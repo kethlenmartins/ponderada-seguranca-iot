@@ -12,14 +12,27 @@
 |Alteração da requisição do dashboard|Alto|Alto|
 |Uso de wifi com mesmo ssid no ESP32|Médio|Alto|
 
+### Definição e detalhamento de cada ataque
+
 #### Risco 1:
-&emsp;Qualquer pessoa que descubra ou consiga, de forma maliciosa, os dados e credenciais do perfil administrador, poderá ter controle do sistema inteiro.
+- Qualquer pessoa que descubra ou consiga, de forma maliciosa, os dados e credenciais do perfil administrador, poderá ter controle do sistema inteiro.
 
 #### Risco 2:
-&emsp;O servidor possui um armazenamento temporário das medições e não requere os dados diretamente da blockchain, Possibilidade de alteração dos dados de medição que aparecem no dashboard Qualquer pessoa com acesso ao servidor pode realizar esse ataque.
+- O servidor possui um armazenamento temporário das medições e não requere os dados diretamente da blockchain, Possibilidade de alteração dos dados de medição que aparecem no dashboard Qualquer pessoa com acesso ao servidor pode realizar esse ataque.
 
 #### Risco 3:
-&emsp;Ataques se utilizando de outra rede wi-fi com mesmo ssid podem ter controle dos dados que são enviados ao broker MQTT.
+- Ataques se utilizando de outra rede wi-fi com mesmo ssid podem ter controle dos dados que são enviados ao broker MQTT.
+
+## Plano de ação:
+
+#### Risco 1: 
+- Implementar autenticação em 2 fatores para maior segurança do perfil administrador do sistema.
+
+#### Risco 2:
+- Alteração da lógica para retirar os dados diretamente da blockchain em vez de utilizar um armazenamento temporário.
+
+#### Risco 3:
+- Verificar o endereço MAC, pois ele é único, independentemente do ssid de redes diferentes ser igual.
 
 ## Contribuições Individuais: 
 * **Fernando:-**
