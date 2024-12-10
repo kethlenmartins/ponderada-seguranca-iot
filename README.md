@@ -5,7 +5,7 @@
 
 ## Vulnerabilidades do projeto e possíveis ataques
 
-|Vulnerabilidade|Possíveis ataques|Probabilidade|Contribuições individuais
-|----|----|----|---|
-|O servidor possui um armazenamento temporário das medições e não requere os dados diretamente da blockchain|Possibilidade de alteração dos dados de medição que aparecem no dashboard|Alguém com acesso ao servidor pode realizar esse ataque|
+|Vulnerabilidade|Possíveis ataques|Probabilidade|Impacto|Contribuições individuais
+|----|----|----|----|----|
+|O servidor possui um armazenamento temporário das medições e não requere os dados diretamente da blockchain|Possibilidade de alteração dos dados de medição que aparecem no dashboard|Qualquer pessoa com acesso ao servidor pode realizar esse ataque|Alto|Kethlen|
 |O perfil administrador pode ser hackeado externamente|
