@@ -8,8 +8,8 @@
 
 |Título do Ataque|Nível do Impacto|Nível de Risco
 |----|----|----|
-|Nome A|Baixo/Médio/Alto|Baixo/Médio/Alto|
-|Nome B|Baixo/Médio/Alto|Baixo/Médio/Alto|
+|Man In the Middle no local|Médio|Baixo|
+|Alteração da requisição do dashboard|Alto|Médio|
 |Nome C|Baixo/Médio/Alto|Baixo/Médio/Alto|
 
 #### Nome A:
@@ -24,6 +24,6 @@ O servidor possui um armazenamento temporário das medições e não requere os 
 * **Fernando:**
 * **Giacomo:**
 * **Kethlen:**
-* **Lucas:**
+* **Lucas: Registro de ataques na requisição e esp, ideação**
 * **Nicolas:**
 * **Rafaela:** 
