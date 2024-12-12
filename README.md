@@ -35,9 +35,10 @@
 - Verificar o endereço MAC, pois ele é único, independentemente do ssid de redes diferentes ser igual.
 
 ## Contribuições Individuais: 
-* **Fernando:-**
-* **Giacomo:-**
+* **Fernando: Não participou/agregou à discussão em grupo**
+* **Giacomo: Não participou/agregou à discussão em grupo**
 * **Kethlen: Registro de ataques ao armazenamento temporário do servidor**
 * **Lucas: Registro de ataques na requisição e esp, ideação**
+* **Marcelo: Registro de ataques externos ao perfil administrador**
 * **Nicolas: Registro de ataques ao armazenamento temporário do servidor**
 * **Rafaela: Registro de ataques externos ao perfil administrador** 
